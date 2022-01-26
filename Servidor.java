@@ -1,4 +1,3 @@
-package TCP;
 import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
