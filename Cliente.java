@@ -27,7 +27,6 @@ public class Cliente {
 	      client = new Socket(ia, 53336); //create socket (*@\clientBox{1+2)}@*)
 	      
 	      os = client.getOutputStream(); //get stream to write to
-//	      os.write(r1);  //write one byte of value 1 (*@\clientBox{3)}@*)
 	      
 	      os.write(r1);  //write one byte of value 1 (*@\clientBox{3)}@*)
 
