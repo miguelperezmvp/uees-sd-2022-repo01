@@ -16,7 +16,7 @@ public class Servidor {
 		      
 		      
 		      
-		     for (int j = 5; (--j) >= 0;) {  //process only 5 clients, so I can show (*@\serverBox{5)}@*) below
+		     	for (int j = 5; (--j) >= 0;) {  //process only 5 clients, so I can show (*@\serverBox{5)}@*) below
 		    	 
 				 client = server.accept(); //wait for incoming connection (*@\serverBox{3)}@*)
 				 System.out.println("Nueva CONEXION DE IP ---> " + client.getRemoteSocketAddress());
