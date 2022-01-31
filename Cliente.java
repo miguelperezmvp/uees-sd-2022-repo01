@@ -22,7 +22,7 @@ public class Cliente {
 	      
 		  
 		  
-	      ia = InetAddress.getByName("10.0.2.15");//get local host address
+	      ia = InetAddress.getByName("100.100.100.3");//get local host address
 	      
 	      client = new Socket(ia, 9999); //create socket (*@\clientBox{1+2)}@*)
 	      
