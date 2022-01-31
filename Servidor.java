@@ -10,8 +10,9 @@ public class Servidor {
 		    InputStream  is;
 		    Socket       client;          
 		    ArrayList<String> list = new ArrayList<String>();
+		    String equis = null;
 		    try {
-		      server = new ServerSocket(9999);//(*@\serverBox{1 + 2)}@*)
+		      server = new ServerSocket(53336);//(*@\serverBox{1 + 2)}@*)
 		      System.out.println("SERVIDOR INICIADO");
 		      
 		      
@@ -31,10 +32,15 @@ public class Servidor {
 				 
 				 
 				 for(int i = 0  ; i < clientnumber ; i++) {
-			        	list.add("X");
+			        	if (i == 0) {
+			        		equis = "X";
+			        		
+			        	} else {
+			        		equis = equis + "X";
+			        	}
 			        }
 				 
-				 System.out.println(list);
+				 System.out.println(equis);
 				 
 				 
 				 client.close(); //close connection to client
