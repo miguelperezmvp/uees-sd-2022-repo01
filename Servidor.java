@@ -12,7 +12,7 @@ public class Servidor {
 		    ArrayList<String> list = new ArrayList<String>();
 		    String equis = "";
 		    try {
-		      server = new ServerSocket(53336);//(*@\serverBox{1 + 2)}@*)
+		      server = new ServerSocket(9999);//(*@\serverBox{1 + 2)}@*)
 		      System.out.println("SERVIDOR INICIADO");
 		      
 		      
